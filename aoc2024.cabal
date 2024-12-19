@@ -74,7 +74,9 @@ library
     import:           shared-options
 
     -- Modules exported by the library.
-    exposed-modules:  MyLib
+    exposed-modules:  
+          Day01
+        
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -108,7 +110,6 @@ executable aoc2024
     build-depends:
           base ^>=4.20.0.0
         , aoc2024
-        , advent-of-code-api
 
     -- Directories containing source files.
     hs-source-dirs:   app
@@ -141,4 +142,6 @@ test-suite aoc2024-test
     -- Test dependencies.
     build-depends:
           base ^>=4.20.0.0
+        , text
         , aoc2024
+        , advent-of-code-api
