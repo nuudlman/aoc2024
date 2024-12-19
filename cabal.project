@@ -1,0 +1,11 @@
+packages: aoc2024.cabal
+jobs: $ncpus
+library-for-ghci: True
+
+-- Always optimize dependencies
+package *
+    optimization: 2
+
+-- Our code is not optimized
+package aoc2024
+    optimization: 0
