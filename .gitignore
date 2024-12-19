@@ -1,4 +1,15 @@
-.stack-work/
-*~
+*
 
-*./
+!.gitignore
+!aoc2024.cabal
+!CHANGELOG.md
+!LICENSE
+
+!app/
+!src/
+!test/
+
+!app/**/*.hs
+!src/**/*.hs
+!test/**/*.hs
+
